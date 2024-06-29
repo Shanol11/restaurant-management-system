@@ -3,7 +3,7 @@
 	$phone = $_POST['phone'];
 	$guests = $_POST['guests'];
 	$date = $_POST['date'];
-	$timeslot = $_POST['time_slot'];
+	$time_slot = $_POST['time_slot'];
 
 	// Database connection
 	$conn = new mysqli('demo','root','','restaurant');
